@@ -1,0 +1,81 @@
+.child-login-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background: url('C:\Users\User\Desktop\VS Files\child_dashboard\src\bg.jpeg') center/cover no-repeat fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-login-card {
+  max-width: 450px;
+  width: 100%;
+  background: rgba(40, 0, 0, 0.85);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(255, 0, 60, 0.14);
+  border: 1px solid rgba(255, 30, 60, 0.10);
+  padding: 36px 36px 44px;
+  font-family: 'Nunito', 'Arial', sans-serif;
+  color: #fff;
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+.child-login-card h2 {
+  color: #ff365a;
+  font-size: 2.0rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+  letter-spacing: .5px;
+}
+
+.login-input {
+  width:80%;
+  padding: 13px 15px;
+  font-size: 1.03rem;
+  border: 2px solid #ff365a;
+  border-radius: 9px;
+  margin-bottom: 14px;
+  font-family: inherit;
+  background: #f6f8fc;
+  color: #2f2c2c;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.login-input:focus {
+  border-color: #ed2140;
+}
+
+.login-btn {
+  width: 87%;
+  padding: 15px 0;
+  background: linear-gradient(90deg, #ff365a 0%, #f55c46 100%);
+  color: white;
+  border: none;
+  border-radius: 9px;
+  font-size: 1.09rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 2px 12px rgba(255,54,90,.12);
+  transition: background 0.2s;
+}
+
+.login-btn:hover {
+  background: linear-gradient(90deg, #ed2140 0%, #ff365a 100%);
+}
+
+.login-error {
+  color: #ff365a;
+  background: #ffe2e7;
+  border: 1px solid #ff365a;
+  border-radius: 7px;
+  width: 100%;
+  text-align: center;
+  padding: 9px 0;
+  margin-bottom: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+}
